@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'cursiva1';
+    src: url(./always_smile/Always\ Smile.otf) format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'cursiva2';
+    src: url(./amelinda/Amelinda.otf) format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+#caixa {
+    font-family: sans-serif;
+    margin: auto;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+}
+
+#caixa-perso {
+    border-color: #ffffff00;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    height: 180px;
+    box-shadow: 1px 1px 10px rgb(0 0 0 / 40%);
+    width: 180px;
+}
+
+h1 {
+    padding-top: 10%;
+    font-size: 50px;
+}
+
+#nome {
+    margin-top: 5%;
+    border-radius: 3px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.418);
+    text-align: center;
+}
+
+#nome:focus {
+    outline: none
+    
+}
+
+.input-font {
+    margin-top: 5%;
+}
+
+#fontes-lista {
+    border-radius: 4px;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 5px;
+    padding: 9px;
+    width: 200px;
+}
+
+#fontes-lista1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+#fontes-lista2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#fontes-lista3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#fontes-lista4 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#fontes-lista5 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#fontes-lista6 {
+    font-family: 'Times New Roman', Times, serif
+}
