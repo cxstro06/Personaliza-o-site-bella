@@ -1,0 +1,123 @@
+#ContentPer {
+    display: flex;
+}
+
+#boxNamePer {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    margin: 60px 20px 0px 100px;
+}
+
+#textPer {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 ;
+    margin: 40px 0px 0px 53px;
+}
+
+#NamePer {
+    width: 420px;
+    height: 390px;
+    border-width: 1px;
+    border-style: solid;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 40%;
+}
+
+p {
+    width: 100%;
+    font-size: 1rem;
+}
+
+#tipeText {
+    text-align: center;
+    padding: 10px 125px;
+    font-size:20px;
+    border-radius: 3px;
+}
+
+#NameText {
+    text-align: center;
+    padding: 10px 125px;
+    font-size:20px;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#Fonts {
+    text-align: center;
+    padding: 10px 125px;
+    font-size:20px;
+    border-radius: 3px;
+}
+
+#red {
+    background-color: red;
+}
+
+#orange {
+    background-color: orange;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#lightgreen {
+    background-color: greenyellow;
+}
+
+#green {
+    background-color: green;
+}
+
+#lightblue {
+    background-color: lightskyblue;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#purple {
+    background-color: blueviolet;
+}
+
+#pink {
+    background-color: deeppink;
+}
+
+#black {
+    background-color: black;
+}
+
+#boxColor ul li{
+    display: inline-block;
+    margin-right: 9px;
+}
+
+.color {
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+}
+
+.button {
+    padding: 14px;
+    width: 246px;
+    height: 50px;
+}
+
+#Cancel {
+    margin: 5px 5px 5px 5px;
+}
+
+#Buy {
+    margin: 5px 5px 5px 5px;
+}
