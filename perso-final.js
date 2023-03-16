@@ -1,39 +1,61 @@
-function colorRed() {
-    document.getElementById ('textName').style.color = 'red'
+function Close() {
+    let ClientName = document.getElementById ('ClientName').value
+    let FamilyName = document.getElementById('FamilyName').value
+    if (ClientName.length == 0||FamilyName.length == 0) {
+    alert('Preencha todos os campos!')
+    } else {
+        document.getElementById('span').style.display = 'none'
+
+        return ClientInfo =  ` ${ClientName} ${FamilyName}`
+    }
 }
 
-function colorOrange() {
-    document.getElementById ('textName').style.color = 'orange'
+function Fonts() {
+    let fontValue = document.getElementById('Fonts').value
+
+    if (fontValue == 'font1') {
+        document.getElementById('Fonts').style.fontFamily = 'Courier New'
+        document.getElementById('textName').style.fontFamily = 'Courier New'
+         return infoFont = 'Courier New'
+    } if (fontValue == 'font2') {
+        document.getElementById('Fonts').style.fontFamily = 'cursiva1'
+        document.getElementById('textName').style.fontFamily = 'cursiva1'
+        return infoFont = 'cursiva1'
+    } if (fontValue == 'font3') {
+        document.getElementById('Fonts').style.fontFamily = 'Gill Sans, Gill Sans MT, Calibri, Trebuchet MS, sans-serif'
+        document.getElementById('textName').style.fontFamily = 'Gill Sans, Gill Sans MT, Calibri, Trebuchet MS, sans-serif'
+        return infoFont = 'Gill Sans'
+    } if (fontValue == 'font4') {
+        document.getElementById('Fonts').style.fontFamily ='Verdana'
+        document.getElementById('textName').style.fontFamily ='Verdana'
+        return infoFont = 'Verdana'
+    } if (fontValue == 'font5') {
+        document.getElementById('Fonts').style.fontFamily ='Cursiva2'
+        document.getElementById('textName').style.fontFamily ='Cursiva2'
+        return infoFont = 'Cursiva2'
+    }
 }
 
-function colorYellow() {
-    document.getElementById ('textName').style.color = 'yellow'
+function color(color) {
+    document.getElementById ('textName').style.color = color
+
+    return infoColor = color
 }
 
-function colorLightgreen() {
-    document.getElementById ('textName').style.color = 'greenyellow'
+function Writing() {
+    let Name = document.getElementById ('NameText')
+    Name = String (Name.value)
+    
+    document.getElementById ('textName').innerHTML = Name
 }
 
-function colorGreen() {
-    document.getElementById ('textName').style.color = 'green'
+function Buy() {
+    let infoName = document.getElementById ('textName').innerHTML
+    window.alert (`Usuario: ${ClientInfo}
+Nome: ${infoName}
+Font: ${infoFont}
+Cor: ${infoColor}`)
 }
-
-function colorlightblue() {
-    document.getElementById ('textName').style.color = 'lightskyblue'
-}
-
-function colorBlue() {
-    document.getElementById ('textName').style.color = 'blue'
-}
-
-function colorPurple() {
-    document.getElementById ('textName').style.color = 'blueviolet'
-}
-
-function colorPink() {
-    document.getElementById ('textName').style.color = 'deeppink'
-}
-
-function colorBlack() {
-    document.getElementById ('textName').style.color = 'black'
-}
+let ClientInfo = ''
+let infoFont = ''
+let infoColor = ''
